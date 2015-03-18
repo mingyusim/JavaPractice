@@ -16,6 +16,5 @@ public class Promotion {
 		System.out.println("");
 		System.out.println("");
 		System.out.println("연간 인건비 : " + String.format("%,d", sum) + "원");
-		  
 	}
 }
