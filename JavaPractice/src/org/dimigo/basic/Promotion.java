@@ -15,6 +15,6 @@ public class Promotion {
 		System.out.println("점포 수 : " + String.format("%,d",  store) + "개");
 		System.out.println("");
 		System.out.println("");
-		System.out.println("연간 인건비 : " + String.format("%,d", sum) + "원");
+		System.out.println("연간 인건비 : " + String.format("%,d", sum) + "원");  
 	}
 }
