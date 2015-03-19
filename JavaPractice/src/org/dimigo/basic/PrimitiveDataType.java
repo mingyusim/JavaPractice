@@ -4,7 +4,7 @@ public class PrimitiveDataType {
 
 	public static void main(String[] args) {
 		
-		System.out.println("<< 아이유 프로필 >>");
+		System.out.println("<< 아이유/// 프로필 >>");
 		String name = "아이유";
 		boolean gender = false;
 		int age = 23;
