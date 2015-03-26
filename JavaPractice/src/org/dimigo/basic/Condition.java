@@ -3,7 +3,7 @@ package org.dimigo.basic;
 public class Condition {
 
 	public static void main(String[] args) {
-		String car = "";
+		String car = "고속버스";
 		
 		int distance = 14;
 		int pay = 0;
