@@ -30,7 +30,7 @@ public class CarTest2 {
 		System.out.println("");
 		
 		car = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
-		
+		 
 		System.out.println("제조사명 :" + car.getCompany());
 		System.out.println("모델명 : "+ car.getModel());
 		System.out.println("색상 : "+ car.getColor());
