@@ -45,7 +45,7 @@ public class Car3 {
 		public String getModel() {
 			return model;
 		}
-		public String getColor() {
+		public String getColor() { 
 			return color;
 		}
 		public int getMaxSpeed() {
