@@ -22,7 +22,7 @@ public class CarTest3 {
 		Car3 car2 = new Car3("기아자동차", "K7", "흰색", 246);
 		Car3 car3 = new Car3("삼성자동차", "SM7", "회색");
 		
-		
+		 
 		System.out.println("<<자동차 목록>>");
 		
 		System.out.println("제조사명 :" + car1.getCompany());

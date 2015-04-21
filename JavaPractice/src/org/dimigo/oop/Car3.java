@@ -37,7 +37,7 @@ public class Car3 {
 		
 		public Car3(String Company, String model, String color) {
 			this(Company, model, color, 0);
-		}
+		} 
 
 		public String getCompany() {
 			return company;
