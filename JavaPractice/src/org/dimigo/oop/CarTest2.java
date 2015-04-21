@@ -10,7 +10,7 @@ package org.dimigo.oop;
  *
  * 1. 개요 :
  * 2. 작성일 : 2015. 4. 14.
- * </pre>
+ * </pre> 
  *
  * @author		: 심민규
  * @version		: 1.0
