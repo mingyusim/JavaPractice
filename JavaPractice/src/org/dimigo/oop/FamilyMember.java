@@ -21,7 +21,7 @@ public class FamilyMember {
 
 	public FamilyMember() {}
 	
-	public FamilyMember(String memberName) {
+	public FamilyMember(String memberName) { 
 		this.memberName = memberName;
 		memberCnt ++;
 	}

@@ -40,7 +40,7 @@ public class PiggyBankTest {
 		
 		System.out.println("----------------------------");
 		bank.printBalance();
-		System.out.println("\n============================");
+		System.out.println("\n============================"); 
 		
 		PiggyBank.putMoney(I, 1000);
 		PiggyBank.stealMoney(brother, 2000);

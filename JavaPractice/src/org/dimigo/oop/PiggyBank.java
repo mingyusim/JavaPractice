@@ -19,7 +19,7 @@ public class PiggyBank {
 	public static int balance;
 	
 	public static void putMoney(FamilyMember member, int amount) {
-		System.out.println(member.getMemberName() + "\t" + amount + "\t(원) 입금함");
+		System.out.println(member.getMemberName() + "\t" + amount + "\t(원) 입금함"); 
 		balance += amount;
 	}
 	
