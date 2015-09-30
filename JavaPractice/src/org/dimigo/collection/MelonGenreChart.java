@@ -69,10 +69,13 @@ public class MelonGenreChart {
 	 */
 	public static void printMap(Map<String, List<Music>> map) {
 		for(String key : map.keySet()) {
+			int i = 0;
 			System.out.println("[" + key + "]");
 			for(Music music : map.get(key)){
-				System.out.println(music);
+				i++;
+				System.out.println(i + ". " + music);
 			}
+			
 		}
 	}
 
