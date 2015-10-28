@@ -32,20 +32,20 @@ public class SaveImageFromUrl {
 		try {
 		URL url = new URL(imageUrl); 
 		
-		try(InputStream is = url.openStream(); 
-		OutputStream os = new FileOutputStream("files/image.png")) { 
+			try(InputStream is = url.openStream(); 
+			OutputStream os = new FileOutputStream("files/image.png")) { 
+				 
+			int result; 
+			byte[] buf = new byte[100]; 
 			 
-		int result; 
-		byte[] buf = new byte[100]; 
-		 
-		while( (result = is.read(buf)) != -1 ) { 
-		os.write(buf, 0, result); 
-			} 
-					 
-		System.out.println("success"); 
-			 
-		} catch (Exception e) { 
-			e.printStackTrace(); 
+			while( (result = is.read(buf)) != -1 ) { 
+			os.write(buf, 0, result); 
+				} 
+						 
+			System.out.println("success"); 
+				 
+			} catch (Exception e) { 
+				e.printStackTrace(); 
 			} 
 		} catch (Exception e) { 
 		e.printStackTrace(); 
