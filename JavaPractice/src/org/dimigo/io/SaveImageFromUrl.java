@@ -48,7 +48,7 @@ public class SaveImageFromUrl {
 				e.printStackTrace(); 
 			} 
 		} catch (Exception e) { 
-		e.printStackTrace(); 
+			e.printStackTrace(); 
 		} 
 	}
 
