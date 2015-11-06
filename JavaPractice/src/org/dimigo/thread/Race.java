@@ -35,7 +35,7 @@ public class Race {
 		
 		// multi thread로 실행하려면 start() 호출하기
 		t1.start();
-		t2.start();
+		t2.start(); 
 		
 		System.out.println("main thread stop");
 	}

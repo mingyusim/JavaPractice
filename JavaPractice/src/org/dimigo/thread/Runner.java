@@ -27,7 +27,7 @@ public class Runner extends Thread{
 	
 	public void run() {
 		System.out.println(name + " 출발");
-		
+		 
 		int i;
 		
 		for(i=100; i>=0; i-=10) {
