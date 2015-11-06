@@ -18,7 +18,7 @@ import java.io.OutputStream;
 import java.net.URL;
 
 /**
- * @author master
+ * @author master 
  *
  */
 public class SaveImageFromUrl {

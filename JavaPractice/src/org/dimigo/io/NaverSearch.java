@@ -22,7 +22,7 @@ import org.apache.http.util.EntityUtils;
 /**
  * <pre>
  * org.dimigo.io
- *   |_ NaverSearch
+ *   |_ NaverSearch 
  * 
  * 1. 개요 : 
  * 2. 작성일 : 2015. 9. 28.

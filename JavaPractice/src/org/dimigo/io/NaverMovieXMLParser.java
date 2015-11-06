@@ -16,7 +16,7 @@ import org.w3c.dom.NodeList;
 /**
  * <pre>
  * org.dimigo.io
- *   |_ NaverMovieXMLParser
+ *   |_ NaverMovieXMLParser 
  * 
  * 1. 개요 : 
  * 2. 작성일 : 2015. 9. 28.
